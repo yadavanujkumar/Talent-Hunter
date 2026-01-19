@@ -2,6 +2,7 @@
 import logging
 from typing import Annotated, List
 import re
+import base64
 from datetime import datetime
 
 from langgraph.graph import StateGraph, END
@@ -431,7 +432,6 @@ def monitor_inbox():
                         if part.get('mimeType') == 'text/plain':
                             data = part.get('body', {}).get('data', '')
                             if data:
-                                import base64
                                 message_text = base64.urlsafe_b64decode(data).decode('utf-8')
                                 break
                 
@@ -439,7 +439,6 @@ def monitor_inbox():
                     # Try getting from body directly
                     data = message.get('payload', {}).get('body', {}).get('data', '')
                     if data:
-                        import base64
                         message_text = base64.urlsafe_b64decode(data).decode('utf-8')
                 
                 if message_text:
