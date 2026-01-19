@@ -253,17 +253,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Built with [LangGraph](https://github.com/langchain-ai/langgraph) for workflow orchestration
-- Powered by [LangChain](https://github.com/langchain-ai/langchain) for LLM integration
-- Uses [Supabase](https://supabase.com) for database management
-
-## 📞 Support
-
-For issues, questions, or suggestions, please open an issue on GitHub.
-
----
-
-**Made with ❤️ by the Talent-Scout team**
