@@ -1,0 +1,31 @@
+{
+  "title": "Senior Full Stack Engineer",
+  "company": "Tech Innovations Inc.",
+  "description": "We are seeking an experienced Senior Full Stack Engineer to join our growing engineering team. You will work on cutting-edge projects, building scalable web applications that serve millions of users. The ideal candidate has strong experience in modern web technologies, cloud infrastructure, and a passion for clean code and best practices. You'll collaborate with product managers, designers, and other engineers to deliver high-quality features that delight our customers.",
+  "required_skills": [
+    "Python",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "AWS",
+    "Docker",
+    "REST APIs",
+    "Git",
+    "Agile/Scrum"
+  ],
+  "preferred_skills": [
+    "TypeScript",
+    "GraphQL",
+    "Kubernetes",
+    "Terraform",
+    "Redis",
+    "CI/CD",
+    "Microservices",
+    "MongoDB",
+    "Next.js",
+    "TDD"
+  ],
+  "experience_required": "5+ years of professional software development experience with demonstrated expertise in full-stack development",
+  "education_required": "Bachelor's degree in Computer Science, Engineering, or related technical field, or equivalent practical experience"
+}
